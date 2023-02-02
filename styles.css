@@ -16,6 +16,7 @@ body {
     margin: 0;
     border-right: 2px solid black;
 	overflow: auto;
+	background-color: #F5F5DC;
 }
 
 #navbar li {
@@ -56,6 +57,7 @@ header {
 
 #navbar header {
 	margin: 0.8rem 0.8rem 0.8rem 1.5rem ;
+	background-color: #F5F5DC;
 }
 
 #main-doc {
@@ -93,6 +95,12 @@ code {
         border: none;
         z-index: 1;
         border-bottom: 2px solid;
+		overflow: auto;
+		background-color: #F5F5DC;
+}
+
+    #navbar header {
+	    background-color: white;
 }
 
     #navbar ul {
